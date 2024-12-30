@@ -4,10 +4,6 @@ import modules.stock_json as stock_json
 def connection():
     return sqlite3.connect("stocks.db")
 
-def demo_load_from_json():
-    json_sql=stock_json.open_json('ddl.json')
-    return json_sql
-
 def create_tables(connection):
 
     # Create table if table does not exist.
