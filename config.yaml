@@ -1,9 +1,9 @@
 # config.yaml
-app_name: MyApp
+app_name: python-app
 version: 1.0
-settings:
-  theme: dark
-  notifications: true
-sql: |
-  CREATE TABLE this_is_a_test_table(
-  col1 char, col2 char)
+sql:
+  table_name: this_is_a_test_table
+  table_sql: |
+    CREATE TABLE IF NOT EXISTS 
+    this_is_a_test_table(
+    col1 char, col2 char)
