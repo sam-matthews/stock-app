@@ -1,0 +1,6 @@
+[
+    {
+      "id": 1,
+      "create_table": "CREATE TABLE IF NOT EXISTS hello(one TEXT, two TEXT)"
+    }
+]

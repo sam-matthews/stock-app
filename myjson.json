@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "portfolio_name": "Magnificent",
+    "portfolio_provider": "Sam",
+    "stocks": [
+      {
+        "name": "AMZN",
+        "long_name": ""
+      },
+      {
+        "name": "AVGO",
+        "long_name": ""
+      },
+      {
+        "name": "COST",
+        "long_name": ""
+      },
+      {
+        "name": "GOOGL",
+        "long_name": ""
+      },
+      {
+        "name": "LLY",
+        "long_name": ""
+      },
+      {
+        "name": "META",
+        "long_name": ""
+      },
+      {
+        "name": "MSFT",
+        "long_name": ""
+      },
+      {
+        "name": "NVDA",
+        "long_name": ""
+      },
+      {
+        "name": "NVO",
+        "long_name": ""
+      },
+      {
+        "name": "TSM",
+        "long_name": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "portfolio_name": "Alpha Picks",
+    "portfolio_provider": "Seeking Alpha",
+    "stocks": [
+      {
+        "name": "AGX",
+        "long_name": "Argan"
+      },
+      {
+        "name": "ANF",
+        "long_name": "Abercrombie"
+      }
+    ]
+  }
+]
