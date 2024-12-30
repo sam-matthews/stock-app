@@ -1,7 +1,5 @@
 import sqlite3
-import json
-import stock_json
-import pprint
+import modules.stock_json as stock_json
     
 def connection():
     return sqlite3.connect("stocks.db")

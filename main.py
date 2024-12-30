@@ -1,11 +1,12 @@
-import stock_json
+import modules.stock_json as stock_json
 import pprint
-import database
+import modules.database as database
 
 def main():
     # Read JSON Contents from file.
     mylist=database.demo_load_from_json()
-
+    print(mylist)
+    
     # Get Dictionary
     mydict=mylist[0]
     print(mydict.get("create_table"))
@@ -16,5 +17,5 @@ def main():
     with connection:
         connection.execute(mydict.get("create_table"))
 
-
-main()
+if __name__ == "__main__":
+    main()
